@@ -116,8 +116,12 @@ h2 {
   border: 5px solid #f9e42e;
   border-radius: 5px;
   padding: 7px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px; 
+  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: block;
 }
 
 /*******/
@@ -126,13 +130,12 @@ h2 {
   width: 100%;
   margin: auto;
   background: #f0efef;
-  height: 380px;
 }
 h3 {
   color: #033048;
   font-size: 22px;
   padding-left: 100px;
-  padding-top: 50px;
+  padding-top: 70px;
   font-weight: 600;
 }
 p {
@@ -142,6 +145,10 @@ p {
   padding-top: 10px;
   padding-bottom: 40px;
   color: #606161
+  font-weight: lighter;
+}
+.bullet {
+  padding-bottom: 100px;
 }
 #bullet {
   padding-left: 150px;
@@ -150,6 +157,77 @@ p {
   color: #606161;
   padding-right: 250px;
   margin-left: 0px;
+  font-weight: lighter;
+}
+
+/*******/
+#quotebox {
+  width: 100%;
+  margin: auto;
+}
+#quote {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: #f0efef;
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-weight: 300;
+}
+#quoter {
+  text-align: center;
+  font-size: 20px;
+  color: #f0efef;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/*******/
+
+#signupnow {
+  width: 100%;
+  margin: auto;
+  background: #f9e42e;
+  padding: 45px;
+}
+#signupnowbutton {
+  background: #033048;
+  border: 1px #033048 solid;
+  padding: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #f0efef;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: block;
+}
+
+/*******/
+#closer {
+  margin: auto;
+  background: #121212;
+  width: 100%;
+  padding: 45px;
+}
+#closinglogo {
+  color: #f9e42e;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 30px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: 9px;
+  color: white;
+  padding-top: 30px;
 }
 
 

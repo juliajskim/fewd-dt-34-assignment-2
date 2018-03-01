@@ -164,6 +164,8 @@ p {
 #quotebox {
   width: 100%;
   margin: auto;
+  background-image: url(images/testimonial_bg.jpg) no-repeat center;
+  background-size: cover;
 }
 #quote {
   text-align: center;
@@ -215,13 +217,27 @@ p {
   background: #121212;
   width: 100%;
   padding: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #closinglogo {
   color: #f9e42e;
   font-weight: bolder;
   font-size: 22px;
-  padding-top: 30px;
+  padding: 0;
   text-align: center;
+}
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+#twitterlogo {
+  padding-right: 30px;
+}
+#fblogo {
+  padding-left: 30px;
 }
 footer {
   text-align: center;
@@ -229,7 +245,6 @@ footer {
   color: white;
   padding-top: 30px;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
